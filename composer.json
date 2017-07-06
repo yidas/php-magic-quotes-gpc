@@ -1,0 +1,16 @@
+{
+    "name": "yidas/magic-quotes",
+    "description": "Implement Magic Quotes to PHP 5.4 above version, which prevents SQL Injection for legacy code",
+    "keywords": ["magic quotes", "legacy code", "sql injection"],
+    "homepage": "https://github.com/yidas/php-magic-quotes",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yidas/php-magic-quotes/issues",
+        "source": "https://github.com/yidas/php-magic-quotes"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
