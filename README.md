@@ -20,7 +20,7 @@ DEMONSTRATION
 
 ```php
 print_r($_GET);
-MagicQuotes::init();
+MagicQuotesGpc::init();
 print_r($_GET);
 ```
     
@@ -37,7 +37,7 @@ The recursive data input from `$_POST`, `$_COOKIE` even `$_GET` will be handled 
 ```php
 $_POST['users'][0] = ['username'=>"1' OR '1'='1"];
 print_r($_POST);
-MagicQuotes::init();
+MagicQuotesGpc::init();
 print_r($_POST);
 ```
 
@@ -61,15 +61,15 @@ Then initialize it at the bootstrap of application such as `config` file:
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
-MagicQuotes::init();
+MagicQuotesGpc::init();
 ```
 
 ### Install Directly by Loading Class
 
-Load the `MagicQuotes.php` and initialize it:
+Load the `MagicQuotesGpc.php` and initialize it:
 
 ```php
-require __DIR__ . '/MagicQuotes.php';
-MagicQuotes::init();
+require __DIR__ . '/MagicQuotesGpc.php';
+MagicQuotesGpc::init();
 ```
 

@@ -1,22 +1,21 @@
 <?php
 
 /**
-* MagicQuotes 
+* MagicQuotesGpc 
 * 
-* Implement Magic Quotes to PHP 5.4 above version, which prevents SQL Injection
-* for legacy code.
+* Implement magic_quotes_gpc on PHP 5.4 above version for legacy code.
 *
 * @author   Nick Tsai <myintaer@gmail.com>
 * @version  1.0.0
 * @example  
 *   // Rewirte all requests of PHP
-*   MagicQuotes::init();
+*   MagicQuotesGpc::init();
 * @example 
 *   // Rewrite $_POST only
-*   MagicQuotes::bindValues($_POST);
+*   MagicQuotesGpc::bindValues($_POST);
 *
 */
-class MagicQuotes
+class MagicQuotesGpc
 {
     /**
      * @var bool $isInit Flag of init() 
