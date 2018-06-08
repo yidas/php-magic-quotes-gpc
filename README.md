@@ -1,7 +1,7 @@
 PHP Magic Quotes Implementation
 ===============================
 
-Implement magic_quotes_gpc on PHP 5.4 above version for legacy code
+Implement magic_quotes_gpc on PHP 5.4 later version for legacy code
 
 [![Latest Stable Version](https://poser.pugx.org/yidas/magic-quotes/v/stable?format=flat-square)](https://packagist.org/packages/yidas/magic-quotes)
 [![Latest Unstable Version](https://poser.pugx.org/yidas/magic-quotes/v/unstable?format=flat-square)](https://packagist.org/packages/yidas/magic-quotes)
